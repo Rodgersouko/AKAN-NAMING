@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Akan naming system</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>AKAN NAME CALCULATOR</h1>
+        <p>Know your Akan Name just by a click</p> 
+        <a href="index.html">HOME/ABOUT</a>
+        <strong><a style="color: goldenrod;" href="calculator.html" >CALCULATOR</a></strong>
+      </div>
+<div class="container text-center">
+        
+    <h4><form>
+        <div class="form">
+            <div class="details">
+                <label>You Name</label><br>
+                <input style="width: 500px; color: black;" type="text" class="name" id="name" placeholder="1st Name and 2nd Name" required>
+            </div>
+            <div class="details">
+                <label>Year Of Birth</label><br>
+                <input style="width: 500px; color: black;" type="number" class="Year" id="year" placeholder="Year Born" required min="1950" required max="2020" >
+            </div>
+            <div class="details">
+                <label>Month Born</label><br>
+                <input style="width: 500px;color: black;" type="number" class="Month" id="month" placeholder="Month Born" required min="1" required max="12" >
+            </div>
+            <div class="details">
+                <label>Day Born</label><br>
+                <input style="width: 500px;color: black;" type="number" class="Day" id="day" placeholder="Day Born" required min="1"required max="31" >
+            </div>           
+        </div><br>
+
+        <div class="gender">
+            <label>Select Gender</label>
+            <input type="radio" class="male" id="male">Male
+            <input type="radio" class="female" id="female" >Female
+        </div>
+
+        <div class="submission">
+            <button type="submit" class="submit" onclick='document.getElementByClass("submission").innerHTML="Submitted"' >submit</button>
+            <button type="reset"  class="submit">Reset</button>
+        </div>
+
+    </form></h4>
+
+</div>
+
+</body>
+</html>

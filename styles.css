@@ -1,0 +1,25 @@
+a:hover{
+    border-top: 5px solid gold;
+    background-color: greenyellow;
+    color: black;  
+    padding-right: 10px; 
+}
+a:active{
+    color: greenyellow;
+}
+body{
+    background-image: url("homebg.jpg");
+    background-size: cover;
+}
+.details ,.gender{
+    color: black;
+}
+.container{
+    color: black;
+    background-color: gold;opacity: 70%;
+    padding: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+.submission{
+    color: rgb(49, 73, 13)
+}
