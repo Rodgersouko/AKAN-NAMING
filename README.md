@@ -37,6 +37,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 - CSS
 - JavaScript
 
-## [License](https://rodgersouko.github.io/Portfolio/master/LICENSE.md)
+## [License](https://rodgersouko.github.io/AKAN-NAMING/)
 
 MIT © [Rogers Ouko](https://rodgersouko.github.io/AKAN-NAMING/)
