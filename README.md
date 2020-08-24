@@ -1,4 +1,4 @@
-# ![Akan Naming Calculator] https://rodgersouko.github.io/AKAN-NAMING/
+# ![Akan Naming Calculator](https://rodgersouko.github.io/AKAN-NAMING/)
 <table>
 <tr>
 <td>
