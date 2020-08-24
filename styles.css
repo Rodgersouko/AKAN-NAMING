@@ -8,9 +8,7 @@ body{
     background-image: url("homebg.jpg");
     background-size: cover;
 }
-.details ,.gender{
-    color: black;
-}
+
 .container{
     color: black;
     background-color: gold;opacity: 70%;
